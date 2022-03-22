@@ -1,0 +1,268 @@
+body 
+      {
+         background-color :  rgb(246,209,82) ;
+		 
+		 
+        }
+		.logo
+		{
+			position : absolute;
+			top : 0px;
+			left : 0px;
+		}
+header
+{
+		    
+		   height : 130px;
+		   
+		}
+		
+
+		#titre_principal
+		{
+		    display : inline-block ;
+		}
+header h1
+         {
+		    background : silver ;
+            font-family :	'ballparkweiner' , serif ;
+            font-size : 2.5em ;
+             font-weight : normal ;
+          }
+#logo , header h1
+           {
+		   display : inline-block ;
+		   margin-bottom : 0px ;
+
+		   }
+header h2
+            {
+			  font-family : dayron, serif ;
+			  font-size : 1 . 1 em ;
+			  margin-top : 0px ;
+			  font-weight : normal ; 
+			  
+			}		   
+nav       
+            {
+			    display : inline-block ;
+				width : 740px ;
+				text-align : right ;
+				margin-top : 99px;
+				margin-left: 40%;
+				
+			}
+nav ul
+            {
+			    list-style-block : none ;
+				
+			}
+nav li
+             {
+			    display : inline-block ;
+				margin-right : 15px ;
+				
+				
+			 }
+nav a     
+             {
+                 font-size : 1 . 3em ;
+                 color : #181818 ;
+				 padding-bottom : 3px ;
+				 text-consideration : none ;
+				 text-decoration : none;
+				 
+				 
+              }
+nav a : hover
+               {
+			       color : #760001 ;
+				   border-bottom : 3px solid #760001 ;
+			   }
+
+.banniere_image
+               {
+			     
+				 height : 200px;
+				 
+				 padding-right : 800px;
+                 margin-top : 20px;
+				 border-radius : 5px 5px 5px;
+				 background-image : url('pictures/istockphoto-1150477705-612x612.JPG');
+				 background-size: 100%;
+				 box-shadow : 0px 5px 4px white;
+				 
+				 
+			   }
+#banniere_description
+               {
+			      position : absolute ;
+				  bottom : 39% ;
+				  barder-radius : 0px 0px 5px 5px ;
+				  width : 98.5% ;
+				  height : 33px ;
+				  padding-top : 5px ;
+				  padding-left : 4px ;
+				  background-color : #706b64 ;
+                 
+                  color	: white ;
+                  font-size : 0.8em ;				  
+			}
+.bouton_rouge
+{
+	display: inline-block;
+	height : 25px;
+	position : absolute;
+	right: 5px;
+	bottom : 20%;
+	border : 1px solid #760001;
+	border-radius : 5px;
+	font-size : 1.2em;
+	text-align : center;
+	padding : 3px 8px 0px 8px;
+	color : white;
+	text-decoration : none;
+	margin-right : 10px;
+	background-color :red;
+}
+.bouton_rouge:hover
+{
+	background-color: rgb(24,24,24,0.7) ;
+}
+.aside 
+{
+			  position : absolute  ;
+			  top: 400px;
+			  width : 230px;
+			  height : 600px;
+			  background-color : #706b64 ;
+              box-shadow : 0px 2px 5px #1cla19 ;
+              border-radius : 5px ;
+               color : white ;
+              font-size : 0.9em ;
+}
+.aside a
+{
+	color : yellow;
+	margin-left : 10px;
+}
+section
+           {
+		       box-shadow : 0px 25px 24px white;
+			   word-wrap : break-word ;
+			   margin-left : 240px ;
+			   margin-top : 30 ;
+			   height : 600px ;
+			   width : 670px ;
+			   background-image : url('pictures/istockphoto-1150477705-612x612.JPG');
+			   color: white;
+			   border-radius : 0px 36px 0px 36px;
+			   
+			   
+		   }
+section img
+{
+	margin-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 15px 15px 15px 15px; 
+	float: left;
+}
+}
+section p
+{
+	margin-left : 10px;
+
+}
+section .section_htb3 img
+{
+	float: left;
+	margin: 10px;
+
+}
+
+aside 
+          {  
+		       
+		      position : absolute  ;
+			  top : 400px;
+			  left : 940px;
+			  width : 400px ;
+			  height : 600px;
+			  background-color : #706b64 ;
+              box-shadow : 0px 2px 5px #1cla19 ;
+              border-radius : 5px ;
+              paddding : 10px ;
+               color : white ;
+              font-size : 0.9em ;	
+              font-family: Times New Roman;
+              font-size: 15px;
+              word-wrap : break-word ;
+              }
+ aside img
+ {
+ 	float: left;
+ }
+#fleche_bulle 
+               {
+			   position : absolute ;
+			   top : 100px ;
+			   left : -12px ;
+			   }
+	#photo_zozor 
+	       {
+		      text-align : center ;
+			  
+		   }
+#photo-zozor img
+          {
+		     border : 1px solid #181818
+		  }
+aside img
+         {
+		    margin-right : 5px ;
+		 }
+footer
+{
+	height : 200px;
+	width : 1350px;
+	border-radius : 5px 5px 5px;
+	margin-top : 10px;
+	background-color : rgb(38,2,115);
+}
+
+#mes_photos, #mes_amis, #tweet
+{
+	display : inline-block;
+	vertical-align: top;
+	margin-left : 20px;
+	margin-top : 10px;
+	background:rgb(0,0,36);
+	border-radius: 5px 5px 5px 5px;
+	width : 30%;
+	
+	padding: 5px;
+}
+#mes_photos
+{
+	
+	
+;
+}
+#tweet
+{
+	color : white;
+}
+#mes_amis   
+{
+	text-decoration : none;
+	
+	color: white;
+	
+}
+.presentantion
+{
+	font-size: 30px;
+	text-align: center;
+	margin-top: 80px;
+
+}
